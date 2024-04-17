@@ -1,9 +1,9 @@
 *By Joshua Rudnik*
 
 RayVM is a virtual machine architecture designed to execute bytecode efficiently through a stack-based execution model. RayVM is a hypothetical bytecode/IR.
-# Architectural Overview
+## Architectural Overview
 
-## Data Types
+### Data Types
 
 RayVM supports a range of primitive and composite data types that provide flexibility and precision for various computational tasks.
 
@@ -29,7 +29,7 @@ RayVM supports a range of primitive and composite data types that provide flexib
 
 Structs are fundamental for creating more complex data types that mirror real-world models or complex data structures, streamlined through RayVM’s memory management system.
 
-## Memory Model
+### Memory Model
 
 RayVM utilizes two primary memory sections for managing different data lifecycle needs—stack and heap:
 
@@ -37,7 +37,7 @@ RayVM utilizes two primary memory sections for managing different data lifecycle
 
 - **Heap Memory**: For dynamic memory requirements, the heap is used. Unlike the stack, it is managed through explicit allocation and deallocation commands within the program (e.g., `NEW` for allocation and managed deallocation via garbage collection). Heap memory is crucial for allocating objects whose sizes are not known at compile time or that exceed the typical size limitations of the stack.
 
-## Execution Model
+### Execution Model
 
 The execution within RayVM is primarily based on a stack-oriented approach:
 
@@ -47,7 +47,7 @@ The execution within RayVM is primarily based on a stack-oriented approach:
 
 Execution begins from the entry point specified under the `.MAIN` directive and follows through the sequence as laid out by the flow control instructions (e.g., `JMP`, `CALL`).
 
-## Module System
+### Module System
 
 In RayVM, code organization and modularization are facilitated through a module system:
 
@@ -61,9 +61,9 @@ In RayVM, code organization and modularization are facilitated through a module 
 
 Modules in RayVM not only promote a clean namespace separating definitions across different program units but also enhance security by encapsulating implementation details. The module header plays a pivotal role in defining the interactions possible through externally exposed interfaces.
 
-# Instruction Set Specification
+## Instruction Set Specification
 
-## Arithmetic Instructions
+### Arithmetic Instructions
 
 RayVM supports arithmetic operations that are particularly tailored for stack-based execution, providing efficient computation directly on the stack.
 
@@ -72,7 +72,7 @@ RayVM supports arithmetic operations that are particularly tailored for stack-ba
 - **MUL**: Multiplies the top two values on the stack.
 - **DIV**: Divides the second topmost value by the topmost value on the stack.
 
-### Example
+#### Example
 ```plaintext
 .MODULE "com.example.arithmetic"
 .MAIN "main"
@@ -87,7 +87,7 @@ RayVM supports arithmetic operations that are particularly tailored for stack-ba
 .FUNC_END
 ```
 
-## Memory Instructions
+### Memory Instructions
 
 RayVM has a dynamic approach to memory operations, allowing variable declaration, loading, storing, and heap allocation management through efficient instructions.
 
@@ -95,7 +95,7 @@ RayVM has a dynamic approach to memory operations, allowing variable declaration
 - **STORE var_name**: Pops the top value from the stack and stores it in the variable named `var_name`.
 - **NEW type_name**: Dynamically allocates an instance of type `type_name` on the heap and pushes a reference to it onto the stack.
 
-### Example
+#### Example
 ```plaintext
 .MODULE "com.example.memory"
 .DECLARE_VAR "x", i32
@@ -110,7 +110,7 @@ RayVM has a dynamic approach to memory operations, allowing variable declaration
 .FUNC_END
 ```
 
-## Control Flow Instructions
+### Control Flow Instructions
 
 Control flow is managed in RayVM through direct and conditional jumping, as well as function invocation.
 
@@ -118,7 +118,7 @@ Control flow is managed in RayVM through direct and conditional jumping, as well
 - **JEQ label**: Compares the top two stack values; if equal, jumps to labeled instruction.
 - **CALL func_name**: Invokes the function identified by `func_name`.
 
-### Example
+#### Example
 ```plaintext
 .MODULE "com.example.controlFlow"
 .MAIN "main"
@@ -140,7 +140,7 @@ Control flow is managed in RayVM through direct and conditional jumping, as well
 .FUNC_END
 ```
 
-## Structural Manipulation Instructions
+### Structural Manipulation Instructions
 
 Manipulating objects and data structures is critical in RayVM, supported by straightforward instructions tailored to structured data.
 
@@ -148,7 +148,7 @@ Manipulating objects and data structures is critical in RayVM, supported by stra
 - **GET_FIELD struct_name, field_name**: Accesses the specified field from a struct instance on the stack.
 - **SET_FIELD struct_name, field_name**: Sets the specified field of a struct instance with a value from the stack.
 
-### Example
+#### Example
 ```plaintext
 .MODULE "com.example.structs"
 .STRUCT "Point"
@@ -170,7 +170,7 @@ Manipulating objects and data structures is critical in RayVM, supported by stra
 .FUNC_END
 ```
 
-## Exception Handling Instructions
+### Exception Handling Instructions
 
 Structured and robust error and exception handling mechanisms in RayVM mitigate the impact of unexpected runtime conditions.
 
@@ -179,7 +179,7 @@ Structured and robust error and exception handling mechanisms in RayVM mitigate 
 - **CATCH exception_type**: Catches exceptions of the specified type.
 - **FINALLY**: Executes code regardless of whether an exception was thrown.
 
-### Example
+#### Example
 ```plaintext
 .MODULE "com.example.exceptions"
 .STRUCT "MyException"
@@ -210,9 +210,9 @@ Structured and robust error and exception handling mechanisms in RayVM mitigate 
 .FUNC_END
 ```
 
-# Enhanced Local Variable Handling in RayVM
+## Enhanced Local Variable Handling in RayVM
 
-## Local Variable Management
+### Local Variable Management
 
 RayVM supports local variables that are scoped within functions. Manage local variables via specific instructions designed for their declaration, access, and manipulation:
 
@@ -222,7 +222,7 @@ RayVM supports local variables that are scoped within functions. Manage local va
 
 These instructions enhance modularity and maintain encapsulation in function definitions, ensuring that variables are only accessible within their respective scopes.
 
-### Detailed Local Variable Example
+#### Detailed Local Variable Example
 ```plaintext
 .MODULE "com.example.locals"
 .MAIN "mainFunction"
@@ -245,11 +245,11 @@ These instructions enhance modularity and maintain encapsulation in function def
 .FUNC_END
 ```
 
-## Integration with Memory and Other Instructions
+### Integration with Memory and Other Instructions
 
 It's crucial that local variable management integrates seamlessly with other parts of the RayVM instruction set, including memory access and function calling conventions. This ensures that local variables can be flexibly used in computations, function arguments, and for storing function results.
 
-## Example Function Calls Using Local Variables
+### Example Function Calls Using Local Variables
 Here, `multiply` function demonstrates utilizing local variables as function arguments:
 ```plaintext
 .FUNC "multiply"
@@ -271,32 +271,32 @@ Here, `multiply` function demonstrates utilizing local variables as function arg
 .FUNC_END
 ```
 
-## Why These Instructions?
+### Why These Instructions?
 
 The inclusion of `ALLOC_LOCAL`, `STORE_LOCAL`, and `LOAD_LOCAL` in RayVM:
 - **Encapsulation**: Follows principles of data encapsulation, keeping variable scope limited to function boundaries.
 - **Performance**: Optimizes memory usage as local variables are allocated in the stack frame and can be quickly accessed or modified.
 - **Flexibility**: Allows for dynamic, runtime decisions about variable storage and manipulation within function execution contexts.
 
-# Function Management
+## Function Management
 
 RayVM supports robust function management, central to modularized code and reuse of logic across different parts of the application. This chapter details the mechanics of declaring, invoking, and managing functions within the RayVM architecture.
 
-## Function Declaration
+### Function Declaration
 
 Functions in RayVM are declared within modules, identified by unique names, and encapsulate reusable blocks of codes. Functions can be defined with a set number of parameters and have local variable declarations that are scoped only to the function.
 
 - **Declaration**: Each function begins with a `.FUNC` tag followed by the function name. This is typically entered into the module's function table in the compiled bytecode, allowing it to be referenced by name during function calls.
 - **End of Function**: A `.FUNC_END` tag is used to signify the end of the function block.
 
-### Function Definition Syntax
+#### Function Definition Syntax
 ```plaintext
 .FUNC "function_name"
     // Function body
 .FUNC_END
 ```
 
-## Calling Conventions
+### Calling Conventions
 
 RayVM utilizes a stack-based approach for function calls. The calling conventions define how arguments are passed to functions, how results are returned, and how the call stack (or execution stack) is manipulated.
 
@@ -304,7 +304,7 @@ RayVM utilizes a stack-based approach for function calls. The calling convention
 - **Function Call**: The `CALL` instruction is used to invoke the function. The instruction manipulates the stack to allocate space for the function's execution context, including return address and local variables.
 - **Returning from Function**: The `RET` instruction concludes function execution, cleans up the function’s stack frame, and returns control to the calling function. If the function returns a value, it is left on the top of the stack.
 
-### Example
+#### Example
 ```plaintext
 .MODULE "com.example.geometry"
 .STRUCT "Point"
@@ -373,11 +373,11 @@ In this example:
 - Inside `add`, the `ALLOC_LOCAL` organizes stack space for local storage.
 - The `RET` from `add` leaves the result on the stack for the next operation.
 
-## Comprehensive Function Definitions and Usage
+### Comprehensive Function Definitions and Usage
 
 Function management in RayVM can handle complex scenarios including recursion, passing of various data types, and interaction with data structures.
 
-### Example of a Recursive Function
+#### Example of a Recursive Function
 ```plaintext
 .MODULE "com.example.recursion"
 .FUNC "factorial"
@@ -414,18 +414,18 @@ In the recursive factorial function:
 
 This chapter clearly outlines how functions are created, managed, and used within RayVM, supporting complex application requirements and ensuring the code remains organized and modular. The design promotes reusability and aids in maintaining cleaner code, critical for larger projects developed on the RayVM platform.
 
-# Memory Management
+## Memory Management
 
 Memory management is crucial in a virtual machine environment like RayVM, which utilizes a combination of stack and heap storage to efficiently manage dynamic data during program execution. This chapter explains RayVM's approach to stack management, heap management, and the handling of pointers and references, which are integral for advanced memory manipulation and garbage collection.
 
-## Stack Management
+### Stack Management
 
 The stack in RayVM plays a central role, primarily used for controlling program flow, storing function call return addresses, local variables, and for evaluating expressions.
 
 - **Function Calls and Stack Frames**: Each function call creates a new frame on the stack, which contains variables local to the function and metadata necessary for managing execution. This approach helps isolate function executions and eases stack cleanup.
 - **Push and Pop Mechanisms**: Basic operations that add (push) and remove (pop) data from the top of the stack. These operations are heavily utilized for evaluating expressions and temporarily storing data.
 
-### Stack Frame Example
+#### Stack Frame Example
 ```plaintext
 .MODULE "com.example.stack"
 .FUNC "compute"
@@ -438,14 +438,14 @@ The stack in RayVM plays a central role, primarily used for controlling program 
 .FUNC_END
 ```
 
-## Heap Management
+### Heap Management
 
 The heap is used for dynamic memory allocation in RayVM, allowing the runtime to manage changing data storage needs efficiently.
 
 - **Dynamic Memory Allocation**: Through instructions like `NEW` and `DROP`, RayVM allows allocation of memory blocks on the heap, which can store instances of structs or arrays during runtime.
 - **Garbage Collection**: RayVM implements a reference-counting garbage collector to manage heap memory. This system automatically deallocates memory that is no longer referenced by any part of the program, preventing memory leaks.
 
-### Heap Usage Example
+#### Heap Usage Example
 ```plaintext
 .MODULE "com.example.heap"
 .STRUCT "MyObject"
@@ -462,14 +462,14 @@ The heap is used for dynamic memory allocation in RayVM, allowing the runtime to
 .FUNC_END
 ```
 
-## Pointers and References
+### Pointers and References
 
 Pointers and references are crucial for managing access to dynamic memory locations, especially on the heap.
 
 - **Pointer Operations**: RayVM includes operations for creating pointers (`NEW`), dereferencing pointers to access or modify data (`LOAD_FIELD`, `SET_FIELD`), and handling pointer arithmetic if needed.
 - **Impact on Garbage Collection**: The proper management of pointers is essential to ensure that the garbage collector can accurately determine which objects are still in use. Pointers that are lost (e.g., due to being overwritten without decrementing their reference count) can lead to memory leaks.
 
-### Pointers Usage Example
+#### Pointers Usage Example
 ```plaintext
 .MODULE "com.example.pointers"
 .STRUCT "Node"
@@ -492,18 +492,18 @@ In this example, object allocation, field manipulation, and dynamic linking betw
 
 Overall, RayVM's memory management is designed to offer flexibility and robust handling of various data types and structures, providing critical capabilities necessary for a wide range of applications and supporting a consistent and predictable programming environment.
 
-# Defining String Literals and Arrays in RayVM Intermediate Representation (IR)
+## Defining String Literals and Arrays in RayVM Intermediate Representation (IR)
 
 In the context of RayVM, string literals and arrays are essential data structures for many applications, from handling text data to managing collections of variables. While our previous discussions covered elements such as the general instruction set, function management, and memory systems, we now detail the specific syntax and operations for defining and working with string literals and arrays within the RayVM environment.
 
-## String Literals
+### String Literals
 
 String literals in RayVM are typically stored in the constant pool, allowing them to be referenced by multiple parts of a program without redundant declarations. This approach optimizes memory usage and enhances performance by reducing unnecessary duplication.
 
 **Defining a String Literal:**
 - **Constant Pool Entry**: Each string literal is added to the constant pool with a unique index. This index is used to reference the string within the bytecode operations.
 
-### Example of Defining and Using String Literals
+#### Example of Defining and Using String Literals
 ```plaintext
 .MODULE "com.example.strings"
 .CONSTANT "str" "Hello, World!"  // Define the string in the constant pool
@@ -518,14 +518,14 @@ String literals in RayVM are typically stored in the constant pool, allowing the
 ```
 Here, `"Hello, World!"` is stored in the constant pool, and its index (`str`) is used to push it onto the stack before calling a print function.
 
-## Arrays
+### Arrays
 
 Arrays in RayVM can be dynamically sized collections of elements (of potentially mixed types, though typically homogeneous), and they require dynamic memory allocation.
 
 **Defining and Manipulating Arrays:**
 - **Dynamic Allocation**: Use a `NEW_ARRAY` operation to create an array. This operation might specify the type of elements and initial size.
 
-### Example of Defining and Using Arrays
+#### Example of Defining and Using Arrays
 ```plaintext
 .MODULE "com.example.arrays"
 .MAIN "mainFunction"
@@ -550,7 +550,7 @@ Arrays in RayVM can be dynamically sized collections of elements (of potentially
 
 In this example, an array of integers is initialized and stored using a reference. Elements within the array are accessed and manipulated using `SET_ELEM` and `GET_ELEM`, operations hypothetically designed for dealing with array elements in RayVM.
 
-## Integration with Memory Management
+### Integration with Memory Management
 
 Both string literals and arrays are integrated into RayVM’s memory management system:
 - **String literals** benefit from being stored once in the constant pool, reducing runtime duplication and memory waste.
@@ -558,11 +558,11 @@ Both string literals and arrays are integrated into RayVM’s memory management 
 
 This structured approach to handling complex data types such as strings and arrays ensures that RayVM can efficiently manage memory and optimize performance while providing the necessary flexibility needed for modern software development. This information aligns with the broader capabilities of RayVM discussed in previous chapters, particularly reflecting the memory management strategies essential for effective runtime operation.
 
-# Exception and Error Handling
+## Exception and Error Handling
 
 Efficient exception and error handling are paramount in a robust virtual machine environment like RayVM, enabling the system to gracefully manage and recover from runtime anomalies or deliberate error conditions. This chapter explores how exceptions are defined, managed, and used in RayVM, emphasizing structuring, capturing, and handling exceptions through dedicated constructs.
 
-## Defining Exceptions
+### Defining Exceptions
 
 In RayVM, exceptions are typically defined as structures, allowing them to carry various pieces of information about an error event, such as error codes, messages, or other relevant data. This structured approach aids in clear understanding and manipulation of exceptions within the system.
 
@@ -575,7 +575,7 @@ In RayVM, exceptions are typically defined as structures, allowing them to carry
 ```
 Here, `MyException` is defined with a message and an error code, making it capable of representing complex error states.
 
-## Using TRY-CATCH Blocks
+### Using TRY-CATCH Blocks
 
 RayVM provides structured `TRY-CATCH` blocks, enabling the implementation of robust error-handling mechanisms within your programs. These constructs allow the segmentation of code into blocks where exceptions might occur (`TRY`) and corresponding blocks where these exceptions are handled (`CATCH`).
 
@@ -589,7 +589,7 @@ RayVM provides structured `TRY-CATCH` blocks, enabling the implementation of rob
 - **CATCH**: Specifies the block of code that executes if an exception of a specified type is thrown.
 - **FINALLY**: Denotes a block of code that executes after the try and catch blocks, regardless of whether an exception was thrown.
 
-### Example of TRY-CATCH Logic
+#### Example of TRY-CATCH Logic
 ```plaintext
 .MODULE "com.example.errorHandling"
 .STRUCT "MyException"
@@ -624,7 +624,7 @@ RayVM provides structured `TRY-CATCH` blocks, enabling the implementation of rob
 ```
 In this example, `MyException` is potentially thrown during `riskyFunction`. The TRY-CATCH construct encapsulates this call to handle any arising exceptions.
 
-## Custom Exceptions
+### Custom Exceptions
 
 Custom exceptions allow developers to tailor error handling to specific needs of their applications, providing meaningful error information to users and systems.
 
@@ -655,11 +655,11 @@ Custom exceptions allow developers to tailor error handling to specific needs of
 
 This chapter outlines how exceptions are integral to maintaining robust execution within RayVM, with structured exception definitions and handling mechanisms ensuring refined control of error management throughout program execution. By leveraging custom exceptions, developers can create a more intuitive and controlled error handling solution tailored to their application's requirements.
 
-# Debugging and Metadata
+## Debugging and Metadata
 
 Effective debugging and comprehensive metadata are crucial aspects of a development environment, especially in systems like RayVM, which operate at a level abstracted from the source code through bytecode translation. This chapter delves into methods for enhancing the debugging experience by incorporating source mapping, variable tracking, and performance profiling within RayVM's architecture.
 
-## Source Mapping
+### Source Mapping
 
 Source mapping involves linking the executable bytecode back to its corresponding source code lines. This linkage is vital for debugging, as it enables developers to trace runtime errors and behavior directly to the source code that produced them, despite operating within a compiled environment.
 
@@ -690,7 +690,7 @@ Source mapping involves linking the executable bytecode back to its correspondin
 ```
 Here, the `.LINE` directive is used to annotate which lines in the source file correspond to each segment of the bytecode, facilitating precise debugging tied to the original source.
 
-## Variable Tracking
+### Variable Tracking
 
 For effective debugging, tracking the state and scope of variables through their lifecycle in the execution is essential. RayVM can support this by embedding variable metadata in the bytecode.
 
@@ -715,7 +715,7 @@ For effective debugging, tracking the state and scope of variables through their
 ```
 This approach allows debuggers to display the current state and value of `counter` during execution, enhancing the visibility into program behavior.
 
-## Performance Profiling
+### Performance Profiling
 
 Embedding performance profiling information directly into the bytecode can help identify bottlenecks and optimize execution speed and resource usage.
 
@@ -746,25 +746,25 @@ In this setup, `.PROFILE_START` and `.PROFILE_END` could hypothetically bracket 
 
 Through these methodologies, RayVM enhances its debugging capabilities, making it easier for developers to trace and optimize their byte-compiled applications effectively. The use of detailed metadata not only aids during the development and debugging phases but also assists in production-level diagnostics and optimizations.
 
-# Serialization and Bytecode Format
+## Serialization and Bytecode Format
 
 Serialization and bytecode format are critical aspects of RayVM as they ensure efficient storage, transmission, and execution of compiled programs. This chapter delves into the specifics of bytecode encoding, file structure, and optimization strategies, punctuated by detailing the binary layout of each section.
 
-## Bytecode Encoding
+### Bytecode Encoding
 
 Encoding in RayVM translates high-level instructions into a compact binary format directly executable by the virtual machine. Each instruction consists of an opcode and potentially several operand bytes that facilitate efficient execution.
 
 - **Opcode**: A fixed-size byte that identifies the specific instruction.
 - **Operands**: Variable-length bytes that provide additional data for operations, such as indexes to the constant pool, function indices, or literal values.
 
-### Binary Encoding Example
+#### Binary Encoding Example
 ```binary
 01 0A  // Opcode 0x01 (PUSH), Operand 0x0A (Index in Constant Pool)
 02     // Opcode 0x02 (POP)
 0F 02  // Opcode 0x0F (CALL), Operand 0x02 (Function index in Constant Pool)
 ```
 
-## File Structure
+### File Structure
 
 The RayVM bytecode file is methodically organized into sections that segregate various elements of the program for efficient access and execution:
 
@@ -773,7 +773,7 @@ The RayVM bytecode file is methodically organized into sections that segregate v
 - **Code Section**: Contains the actual bytecode that directs program execution.
 - **Debug Section**: Houses debug-specific information like line number mappings and variable annotations.
 
-### Example Detailed File Layout
+#### Example Detailed File Layout
 The layout hereinbelow illustrates how various elements and sections are encoded, ensuring clarity and ease of retrieval:
 
 ```s
@@ -800,7 +800,7 @@ Debug:
   Byte: 0x01, "greeting", 0x00  // .VAR "greeting", constant pool index 0
 ```
 
-## Optimizations
+### Optimizations
 
 Optimization of bytecode is targeted to enhance not only the loading and execution speed but also the compactness, crucial for systems with limited resources.
 
@@ -808,7 +808,7 @@ Optimization of bytecode is targeted to enhance not only the loading and executi
 - **Dead Code Elimination**: Automatically remove code blocks that are never executed, reducing the bytecode size.
 - **Constant Pool Optimization**: Merge duplicate constants and remove unused entries to reduce the size of the constant pool.
 
-### Optimization in Action
+#### Optimization in Action
 Consider optimizing frequent operations with predefined combined instructions:
 ```binary
 Before Optimization: 0x01, 0x0A; 0x01, 0x0B; 0x03

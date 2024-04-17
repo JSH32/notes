@@ -1,4 +1,7 @@
 {
   "accentColor": "",
-  "cssTheme": "Blue Topaz"
+  "cssTheme": "Blue Topaz",
+  "nativeMenus": false,
+  "interfaceFontFamily": "",
+  "textFontFamily": ""
 }

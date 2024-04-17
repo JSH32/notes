@@ -19,14 +19,14 @@ Writing an article is similar to writing an essay in several ways. However, an a
 1. **Title**: Aim for a catchy and informative title, like "Examining the Wuhan COVID-19 Conspiracy Theory".
 	* Unraveling the Wuhan COVID-19 Conspiracy
 1. **Introduction**: Introduce the topic of the Wuhan COVID-19 conspiracy theory to your readers. This can include a brief overview of the theory and why it's a topic of interest. Open with a hook – a surprising fact, a provocative question, or a compelling anecdote – to catch readers' attention.
-		
-1. **Background**: The first main section should provide relevant context. For your topic, you could look at the origins of the Wuhan COVID-19 conspiracy theory, what it entails, and why some people believe in it. 
+
+1. **Background**: The first main section should provide relevant context. For your topic, you could look at the origins of the Wuhan COVID-19 conspiracy theory, what it entails, and why some people believe in it.
 
 2. **Main Body - Arguments For the Theory**: Present the main reasons, logical or illogical, people believe in this conspiracy. To maintain balance, honestly presenting the main tenets of the theory would be crucial.
 
 3. **Main Body - Arguments Against the Theory**: Detail the counterarguments, evidence against the theory, or expert opinions debunking it. This part of the article has the potential for destroying or affirming the conspiratorial claims.
 
-4. **Impact**: Discuss the impact the theory has had, whether it's on social media, politics, or public behavior during the pandemic. 
+4. **Impact**: Discuss the impact the theory has had, whether it's on social media, politics, or public behavior during the pandemic.
 
 5. **Critical Evaluation**: Analyze the theory with the evidence you have gathered. Is it entirely unfounded, or does it hold water? Is there a viable middle ground, or is the truth as wild as the theory suggests? This gives you room to share your opinion within the bounds of journalistic objectivity.
 
