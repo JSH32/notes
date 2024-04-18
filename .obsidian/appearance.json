@@ -1,7 +1,9 @@
 {
   "accentColor": "",
-  "cssTheme": "Royal Velvet",
+  "cssTheme": "Blue Topaz",
   "nativeMenus": false,
   "interfaceFontFamily": "",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "theme": "system",
+  "showViewHeader": true
 }

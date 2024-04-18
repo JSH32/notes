@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "840e3a0cb64e4d97",
+        "id": "0b73a815c814ac69",
         "type": "tabs",
         "children": [
           {
-            "id": "3dd298616bafe846",
+            "id": "e54511c457a10644",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Projects.md",
-                "mode": "preview",
+                "file": "Classes/Calculus 1/Notes/September 01 2023.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Classes/Calculus 1/Notes/September 01 2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Projects.md",
+                "file": "Classes/Calculus 1/Notes/September 01 2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Projects.md"
+                "file": "Classes/Calculus 1/Notes/September 01 2023.md"
               }
             }
           },
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 438.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,17 +164,19 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3dd298616bafe846",
+  "active": "e54511c457a10644",
   "lastOpenFiles": [
-    "Classes/Calculus 1/Calculus 1.md",
-    "Classes/Calculus 1/Notes/August 21 2023.md",
-    "Classes/Calculus 1/Notes/Notes.md",
-    "Projects/IUAttend.md",
     "Projects/Projects.md",
+    "Projects/IUAttend.md",
     "Projects/RayVM/RayVM.md",
-    "Classes/Calculus 1/Notes/September 01 2023.md",
-    "Classes/Astronomy A221/Astronomy A221.md",
     "Projects/RayVM/RayVM Implementation Reference.md",
+    "Classes/Calculus 1/Notes/Notes.md",
+    "Classes/Calculus 1/Notes/August 23 2023.md",
+    "Classes/Calculus 1/Notes/August 21 2023.md",
+    "Classes/Calculus 1/Notes/August 24 2023.md",
+    "Classes/Calculus 1/Notes/September 01 2023.md",
+    "Classes/Calculus 1/Calculus 1.md",
+    "Classes/Astronomy A221/Astronomy A221.md",
     "Projects/IUAttend/IUAttend.md",
     "Classes/Classes.md",
     "Classes/Conspiracy Theories/Notes/Conspiracy Theories.md",
@@ -185,11 +187,9 @@
     "Projects/RayVM/RayVM Implementation Reference.html",
     "Projects/RayVM/RayVM Implementation Reference.epub",
     "Projects/RayVM/RayVM Implementation Reference.tex",
-    "Classes/Calculus 1/Notes/August 24 2023.md",
     "Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
     "Classes/Calculus 1/Notes/August 30 2023.md",
     "Classes/Calculus 1/Notes/August 31 2023.md",
-    "Classes/Calculus 1/Notes/August 23 2023.md",
     "Classes/Astronomy A221/Notes/Notes.md",
     "Classes/Astronomy A221/Notes/September 6 2023.md",
     "Classes/Astronomy A221/Notes/August 30 2023.md",
