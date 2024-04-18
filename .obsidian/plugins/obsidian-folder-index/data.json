@@ -6,7 +6,7 @@
   "autoRenameIndexFile": true,
   "includeFileContent": false,
   "hideIndexFiles": false,
-  "indexFileInitText": "---\ntags: MOCs\n---\n`classname:folder-index-content`\n```folder-index-content\n```\n`classname:folder-index-replacement`\n*Folder Index*",
+  "indexFileInitText": "---\ntags: MOCs\n---\n`classname:folder-index-replacement`\n## Folder Index\n`classname:folder-index-content`\n```folder-index-content\n```",
   "autoPreviewMode": true,
   "sortIndexFilesAlphabetically": true,
   "sortHeadersAlphabetically": false,

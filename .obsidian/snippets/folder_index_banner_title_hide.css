@@ -19,14 +19,7 @@ body.is-mobile .folder-index-content {
   display: none;
 }
 
-.folder-index-content {
+/* Hide placeholder on desktop */
+body:not(.is-mobile) .folder-index-replacement {
   display: none;
 }
-
-.folder-index-replacement {
-  display: none;
-}
-
-/* body:not(.is-mobile) .folder-index-replacement {
-  display: none;
-} */
