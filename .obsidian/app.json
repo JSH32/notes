@@ -8,6 +8,6 @@
   },
   "alwaysUpdateLinks": true,
   "spellcheck": false,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "propertiesInDocument": "visible"
 }
