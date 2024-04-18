@@ -9,5 +9,5 @@
   "alwaysUpdateLinks": true,
   "spellcheck": false,
   "showInlineTitle": true,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "visible"
 }

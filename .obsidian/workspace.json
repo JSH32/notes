@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Projects/RayVM/RayVM Implementation Reference.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 431.5
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,10 +167,10 @@
   },
   "active": "e54511c457a10644",
   "lastOpenFiles": [
-    "Projects/RayVM/RayVM.md",
-    "Projects/RayVM/RayVM Implementation Reference.md",
-    "Projects/IUAttend.md",
     "Projects/Projects.md",
+    "Projects/IUAttend.md",
+    "Projects/RayVM/RayVM Implementation Reference.md",
+    "Projects/RayVM/RayVM.md",
     "Classes/Calculus 1/Notes/September 01 2023.md",
     "Classes/Calculus 1/Notes/Notes.md",
     "Classes/Calculus 1/Notes/August 23 2023.md",

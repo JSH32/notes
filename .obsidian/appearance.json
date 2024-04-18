@@ -1,10 +1,12 @@
 {
   "accentColor": "",
-  "cssTheme": "",
+  "cssTheme": "Blue Topaz",
   "nativeMenus": false,
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "theme": "system",
   "showViewHeader": true,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "hide_properties_reader"
+  ]
 }
