@@ -1,8 +1,30 @@
+---
+banner: https://miro.medium.com/v2/resize:fit:1400/1*SD_tNe2AbBSo62Eyo3N0eQ.png
+banner_x: 0.11046
+banner_y: 0.444
+---
 *By Joshua Rudnik*
 
 RayVM is a virtual machine architecture designed to execute bytecode efficiently through a stack-based execution model. RayVM is a hypothetical bytecode/IR.
 ## Architectural Overview
 
+```chart
+type: pie
+labels: [cheeseburger,whopper]
+series:
+  - title: 
+    data: [5,3]
+  - title: 
+    data: []
+tension: 0.2
+width: 80%
+labelColors: true
+fill: false
+beginAtZero: false
+bestFit: false
+bestFitTitle: undefined
+bestFitNumber: 0
+```
 ### Data Types
 
 RayVM supports a range of primitive and composite data types that provide flexibility and precision for various computational tasks.

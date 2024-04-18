@@ -1,9 +1,12 @@
 {
   "accentColor": "",
-  "cssTheme": "Blue Topaz",
+  "cssTheme": "",
   "nativeMenus": false,
   "interfaceFontFamily": "",
   "textFontFamily": "",
   "theme": "system",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "banner"
+  ]
 }
