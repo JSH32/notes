@@ -18,3 +18,15 @@ I suspect it's something to do with obsidian-folder-index adding it back automat
 body.is-mobile .folder-index-content {
   display: none;
 }
+
+.folder-index-content {
+  display: none;
+}
+
+.folder-index-replacement {
+  display: none;
+}
+
+/* body:not(.is-mobile) .folder-index-replacement {
+  display: none;
+} */
