@@ -93,7 +93,7 @@ RayVM supports arithmetic operations that are particularly tailored for stack-ba
 - **DIV**: Divides the second topmost value by the topmost value on the stack.
 
 #### Example
-```plaintext
+```cpp title="Arithematic Example"
 .MODULE "com.example.arithmetic"
 .MAIN "main"
 

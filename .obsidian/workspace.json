@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Projects/RayVM/RayVM Implementation Reference.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 315.5
   },
   "left-ribbon": {
     "hiddenItems": {
