@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f6f27aecf025e612",
+        "id": "0b1593d00f1da1fc",
         "type": "tabs",
         "children": [
           {
-            "id": "3ee98b1ec795b45e",
+            "id": "2edb50baf32f8064",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Classes/Conspiracy Theories/Conspiracy Theories.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Classes/Conspiracy Theories/Conspiracy Theories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Classes/Conspiracy Theories/Conspiracy Theories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Classes/Conspiracy Theories/Conspiracy Theories.md"
+              }
             }
           },
           {
@@ -157,25 +165,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3ee98b1ec795b45e",
+  "active": "2edb50baf32f8064",
   "lastOpenFiles": [
-    "Projects/Projects.md",
+    "Classes/Conspiracy Theories/Notes/Notes.md",
+    "Classes/Conspiracy Theories/Conspiracy Theories.md",
+    "Classes/Classes.md",
+    "Classes/Astronomy A221/Astronomy A221.md",
+    "Projects/RayVM/RayVM.md",
     "Projects/IUAttend.md",
     "Projects/RayVM/RayVM Implementation Reference.md",
-    "Projects/RayVM/RayVM.md",
+    "Projects/Projects.md",
+    "Classes/Calculus 1/Calculus 1.md",
     "Classes/Calculus 1/Notes/Notes.md",
     "Classes/Calculus 1/Notes/September 01 2023.md",
     "Classes/Calculus 1/Notes/August 23 2023.md",
     "Classes/Calculus 1/Notes/August 21 2023.md",
     "Classes/Calculus 1/Notes/August 24 2023.md",
-    "Classes/Calculus 1/Calculus 1.md",
-    "Classes/Astronomy A221/Astronomy A221.md",
     "Projects/IUAttend/IUAttend.md",
-    "Classes/Classes.md",
     "Classes/Conspiracy Theories/Notes/Conspiracy Theories.md",
     "Dashboard.md",
-    "Classes/Conspiracy Theories/Conspiracy Theories.md",
-    "Classes/Conspiracy Theories/Notes/Notes.md",
     "Classes/Conspiracy Theories/Notes/August 21 2023.md",
     "Projects/RayVM/RayVM Implementation Reference.html",
     "Projects/RayVM/RayVM Implementation Reference.epub",
