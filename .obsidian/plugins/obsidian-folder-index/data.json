@@ -6,7 +6,7 @@
   "autoRenameIndexFile": true,
   "includeFileContent": false,
   "hideIndexFiles": false,
-  "indexFileInitText": "---\ntags: MOCs\n---\n```folder-index-content\n```",
+  "indexFileInitText": "---\ntags: MOCs\n---\n<span class=\"folder-index-content\">\n```folder-index-content\n```\n</span>",
   "autoPreviewMode": true,
   "sortIndexFilesAlphabetically": true,
   "sortHeadersAlphabetically": false,

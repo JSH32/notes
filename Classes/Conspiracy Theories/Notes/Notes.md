@@ -1,1 +1,5 @@
-# Notes
+---
+tags: MOCs
+---
+```folder-index-content
+```

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ee8bd9ebf6791520",
+        "id": "eb5a23a0e038ce2c",
         "type": "tabs",
         "children": [
           {
-            "id": "1d7c1f6e84b5a804",
+            "id": "4f5527fbbb2fda4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classes/Conspiracy Theories/{{FOLDER_NAME}}.md",
+                "file": "Projects/Projects.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classes/Conspiracy Theories/{{FOLDER_NAME}}.md",
+                "file": "Projects/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classes/Conspiracy Theories/{{FOLDER_NAME}}.md",
+                "file": "Projects/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classes/Conspiracy Theories/{{FOLDER_NAME}}.md"
+                "file": "Projects/Projects.md"
               }
             }
           },
@@ -165,25 +165,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1d7c1f6e84b5a804",
+  "active": "4f5527fbbb2fda4d",
   "lastOpenFiles": [
-    "Projects/{{FOLDER_NAME}}.md",
-    "Classes/Conspiracy Theories/{{FOLDER_NAME}}.md",
-    "Projects/Projects.md",
     "Projects/IUAttend.md",
-    "Projects/_about_.md",
-    "Classes/Conspiracy Theories/Conspiracy Theories.md",
-    "Classes/Conspiracy Theories/Notes/Notes.md",
-    "Classes/Astronomy A221/Notes/Notes.md",
+    "Projects/Projects.md",
     "Projects/RayVM/RayVM Implementation Reference.md",
     "Classes/Classes.md",
-    "Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
-    "Classes/Conspiracy Theories/Notes/August 21 2023.md",
-    "Classes/Conspiracy Theories/Notes/Conspiracy Theories.md",
     "Classes/Astronomy A221/Astronomy A221.md",
-    "Projects/RayVM/RayVM.md",
-    "Classes/Calculus 1/Calculus 1.md",
+    "Classes/Astronomy A221/Notes/Notes.md",
     "Classes/Calculus 1/Notes/Notes.md",
+    "Classes/Calculus 1/Calculus 1.md",
+    "Classes/Conspiracy Theories/Conspiracy Theories.md",
+    "Classes/Conspiracy Theories/Notes/Notes.md",
+    "Projects/RayVM/RayVM.md",
+    "Classes/Astronomy A221/Notes.lnk",
+    "Projects/_about_.md",
+    "Classes/Conspiracy Theories/Notes/August 21 2023.md",
+    "Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
+    "Classes/Conspiracy Theories/{{FOLDER_NAME}}.md",
+    "Projects/{{FOLDER_NAME}}.md",
+    "Classes/Conspiracy Theories/Notes/Conspiracy Theories.md",
     "Classes/Calculus 1/Notes/September 01 2023.md",
     "Classes/Calculus 1/Notes/August 23 2023.md",
     "Classes/Calculus 1/Notes/August 21 2023.md",
@@ -195,13 +196,11 @@
     "Projects/RayVM/RayVM Implementation Reference.tex",
     "Classes/Calculus 1/Notes/August 30 2023.md",
     "Classes/Calculus 1/Notes/August 31 2023.md",
-    "Classes/Astronomy A221/Notes/September 6 2023.md",
     "Projects/IUAttend",
     "Projects",
     "Classes",
     "Projects/RayVM",
     "Classes/Calculus 1/Notes",
-    "Classes/Astronomy A221/Notes",
-    "Classes/Conspiracy Theories/Notes"
+    "Classes/Astronomy A221/Notes"
   ]
 }
