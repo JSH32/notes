@@ -1,5 +1,6 @@
 ---
 banner: https://www.talesbytrees.com/wp-content/uploads/laptop-2055522_1280.jpg
+banner_icon: 💾
 ---
 *By Joshua Rudnik*
 
