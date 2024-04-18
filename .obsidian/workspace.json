@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0b73a815c814ac69",
+        "id": "f6f27aecf025e612",
         "type": "tabs",
         "children": [
           {
-            "id": "e54511c457a10644",
+            "id": "3ee98b1ec795b45e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Projects/RayVM/RayVM Implementation Reference.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/RayVM/RayVM Implementation Reference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/RayVM/RayVM Implementation Reference.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Projects/RayVM/RayVM Implementation Reference.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,7 +130,7 @@
             }
           },
           {
-            "id": "461d22b11e5e3236",
+            "id": "823ff98e9f36c0a8",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -165,12 +157,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e54511c457a10644",
+  "active": "3ee98b1ec795b45e",
   "lastOpenFiles": [
-    "Projects/RayVM/RayVM.md",
-    "Projects/RayVM/RayVM Implementation Reference.md",
-    "Projects/IUAttend.md",
     "Projects/Projects.md",
+    "Projects/IUAttend.md",
+    "Projects/RayVM/RayVM Implementation Reference.md",
+    "Projects/RayVM/RayVM.md",
     "Classes/Calculus 1/Notes/Notes.md",
     "Classes/Calculus 1/Notes/September 01 2023.md",
     "Classes/Calculus 1/Notes/August 23 2023.md",
