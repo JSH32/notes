@@ -7,6 +7,9 @@
   "theme": "system",
   "showViewHeader": true,
   "enabledCssSnippets": [
-    "hide_properties_reader"
+    "hide_properties_reader",
+    "filetree_banner_index",
+    "folder_index_banner_title_hide",
+    "unordered_list_styling2"
   ]
 }

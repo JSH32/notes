@@ -10,7 +10,7 @@
   "headerDecor": "shadow",
   "headerHorizontalAlignment": "left",
   "headerVerticalAlignment": "edge",
-  "useHeaderByDefault": false,
+  "useHeaderByDefault": true,
   "useTwemoji": true,
   "showPreviewInLocalModal": true,
   "autoDownloadPastedBanners": false,

@@ -1,0 +1,25 @@
+/* This fixes multiple titles appearring when using obsidian-folder-index and obsidian-banners together
+while hiding inline titles and using "Display header by default" (obsidian-banners).
+I suspect it's something to do with obsidian-folder-index adding it back automatically. */
+
+/* Editor mode */
+.cm-preview-code-block.cm-embed-block.markdown-rendered
+  .obsidian-banner-wrapper.without-banner {
+  display: none;
+}
+
+/* Preview mode */
+.markdown-preview-sizer.markdown-preview-section
+  .obsidian-banner-wrapper.without-banner {
+  display: none;
+}
+
+/* Hide folder index on mobile (where it doesn't work) */
+body.is-mobile .folder-index-content {
+  display: none;
+}
+
+/* Hide placeholder on desktop */
+body:not(.is-mobile) .folder-index-replacement {
+  display: none;
+}

@@ -5,11 +5,12 @@
   "table-editor-obsidian",
   "obsidian-linter",
   "obsidian-git",
-  "obsidian-folder-index",
   "omnisearch",
   "obsidian-charts",
   "quick-latex",
   "obsidian42-brat",
   "obsidian-banners",
-  "code-styler"
+  "code-styler",
+  "obsidian-folder-index",
+  "obsidian-stylist"
 ]
