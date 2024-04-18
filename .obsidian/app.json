@@ -7,5 +7,7 @@
     "downscalePercent": 100
   },
   "alwaysUpdateLinks": true,
-  "spellcheck": false
+  "spellcheck": false,
+  "showInlineTitle": true,
+  "propertiesInDocument": "visible"
 }

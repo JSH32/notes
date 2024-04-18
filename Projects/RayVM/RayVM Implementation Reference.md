@@ -1,8 +1,28 @@
+---
+banner: https://www.talesbytrees.com/wp-content/uploads/laptop-2055522_1280.jpg
+---
 *By Joshua Rudnik*
 
 RayVM is a virtual machine architecture designed to execute bytecode efficiently through a stack-based execution model. RayVM is a hypothetical bytecode/IR.
 ## Architectural Overview
 
+```chart
+type: pie
+labels: [cheeseburger,whopper]
+series:
+  - title: 
+    data: [5,3]
+  - title: 
+    data: []
+tension: 0.2
+width: 80%
+labelColors: true
+fill: false
+beginAtZero: false
+bestFit: false
+bestFitTitle: undefined
+bestFitNumber: 0
+```
 ### Data Types
 
 RayVM supports a range of primitive and composite data types that provide flexibility and precision for various computational tasks.
@@ -73,7 +93,7 @@ RayVM supports arithmetic operations that are particularly tailored for stack-ba
 - **DIV**: Divides the second topmost value by the topmost value on the stack.
 
 #### Example
-```plaintext
+```cpp title="Arithematic Example"
 .MODULE "com.example.arithmetic"
 .MAIN "main"
 

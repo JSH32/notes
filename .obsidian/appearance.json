@@ -3,5 +3,10 @@
   "cssTheme": "Blue Topaz",
   "nativeMenus": false,
   "interfaceFontFamily": "",
-  "textFontFamily": ""
+  "textFontFamily": "",
+  "theme": "system",
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "hide_properties_reader"
+  ]
 }
