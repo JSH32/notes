@@ -130,7 +130,15 @@
             }
           },
           {
-            "id": "e3947a69e32f8b2a",
+            "id": "ef9abc53f58163ce",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "3c43c14ad477d557",
             "type": "leaf",
             "state": {
               "type": "tasks_timeline_view",
@@ -138,11 +146,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 358.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,43 +164,40 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3dd298616bafe846",
+  "active": "3c43c14ad477d557",
   "lastOpenFiles": [
-    "Projects/RayVM/RayVM Implementation Reference.md",
-    "Projects/IUAttend.md",
-    "Projects/RayVM/RayVM.md",
     "Projects/Projects.md",
-    "Classes/Calculus 1/Notes/September 01 2023.md",
-    "Classes/Calculus 1/Notes/Notes.md",
-    "Classes/Calculus 1/Calculus 1.md",
+    "Projects/IUAttend.md",
     "Classes/Astronomy A221/Astronomy A221.md",
-    "Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
-    "Classes/Conspiracy Theories/Notes/Notes.md",
-    "Classes/Conspiracy Theories/Notes/August 21 2023.md",
-    "Classes/Calculus 1/Notes/August 30 2023.md",
-    "Classes/Calculus 1/Notes/August 23 2023.md",
-    "Projects/IUAttend/Untitled.md",
     "Projects/IUAttend/IUAttend.md",
+    "Projects/RayVM/RayVM.md",
+    "Projects/RayVM/RayVM Implementation Reference.md",
+    "Classes/Classes.md",
     "Classes/Conspiracy Theories/Notes/Conspiracy Theories.md",
     "Dashboard.md",
     "Classes/Conspiracy Theories/Conspiracy Theories.md",
+    "Classes/Conspiracy Theories/Notes/Notes.md",
+    "Classes/Conspiracy Theories/Notes/August 21 2023.md",
     "Projects/RayVM/RayVM Implementation Reference.html",
     "Projects/RayVM/RayVM Implementation Reference.epub",
     "Projects/RayVM/RayVM Implementation Reference.tex",
-    "Classes/Classes.md",
+    "Classes/Calculus 1/Calculus 1.md",
+    "Classes/Calculus 1/Notes/September 01 2023.md",
+    "Classes/Calculus 1/Notes/Notes.md",
     "Classes/Calculus 1/Notes/August 24 2023.md",
+    "Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
+    "Classes/Calculus 1/Notes/August 30 2023.md",
     "Classes/Calculus 1/Notes/August 31 2023.md",
+    "Classes/Calculus 1/Notes/August 23 2023.md",
     "Classes/Calculus 1/Notes/August 21 2023.md",
     "Classes/Astronomy A221/Notes/Notes.md",
     "Classes/Astronomy A221/Notes/September 6 2023.md",
     "Classes/Astronomy A221/Notes/August 30 2023.md",
     "Classes/Astronomy A221/Notes/August 23 2023.md",
+    "Classes/Astronomy A221/Notes/August 21 2023.md",
     "Projects/IUAttend",
     "Projects",
     "Classes",
     "Projects/RayVM",
     "Classes/Calculus 1/Notes",
-    "Classes/Astronomy A221/Notes",
-    "Classes/Conspiracy Theories/Notes"
-  ]
-}
+    
