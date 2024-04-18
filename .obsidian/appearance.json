@@ -6,7 +6,5 @@
   "textFontFamily": "",
   "theme": "system",
   "showViewHeader": true,
-  "enabledCssSnippets": [
-    "banner"
-  ]
+  "enabledCssSnippets": []
 }

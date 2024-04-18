@@ -1,7 +1,5 @@
 ---
-banner: https://miro.medium.com/v2/resize:fit:1400/1*SD_tNe2AbBSo62Eyo3N0eQ.png
-banner_x: 0.11046
-banner_y: 0.444
+banner: https://www.talesbytrees.com/wp-content/uploads/laptop-2055522_1280.jpg
 ---
 *By Joshua Rudnik*
 
