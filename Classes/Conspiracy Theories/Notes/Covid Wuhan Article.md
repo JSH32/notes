@@ -1,5 +1,5 @@
 
-- [x] Wuhan and COVID 19 Article 📅 2023-09-08 ✅ 2024-04-09
+- [x] Wuhan and COVID 19 Article 📅 2023-09-08 ✅ 2024-04-17
 	- This assignment asks you to investigate a particular conspiracy, as a journalist would. You will be assigned the particular theory to look at. Different students will receive different assignments. Your final product will be a 1400-word article on the theory, something that will tell readers the basics of this theory, whether it is something that can be believed or not, and other things that a general reader would want to know about the theory. Expose the theory as false, or show it to be something worth considering, or maybe something in between (depending on what you find).
 	- In addition to the article, you need to provide text that shows how you gathered information for your article. What sources did you consult? Did you interview anyone? What primary sources were you able to gather?
 	- **Your individualized assignment topic is "Wuhan and COVID19." The idea that the coronavirus was purposely created by China in a lab in Wuhan.**
