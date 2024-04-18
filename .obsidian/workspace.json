@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Projects/Projects.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -169,6 +169,7 @@
   "lastOpenFiles": [
     "Projects/IUAttend.md",
     "Projects/Projects.md",
+    "Projects/RayVM/RayVM.md",
     "Projects/RayVM/RayVM Implementation Reference.md",
     "Classes/Classes.md",
     "Classes/Astronomy A221/Astronomy A221.md",
@@ -177,7 +178,6 @@
     "Classes/Calculus 1/Calculus 1.md",
     "Classes/Conspiracy Theories/Conspiracy Theories.md",
     "Classes/Conspiracy Theories/Notes/Notes.md",
-    "Projects/RayVM/RayVM.md",
     "Classes/Astronomy A221/Notes.lnk",
     "Projects/_about_.md",
     "Classes/Conspiracy Theories/Notes/August 21 2023.md",

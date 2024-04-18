@@ -1,10 +1,6 @@
 ---
-tags:
-  - MOCs
+tags: MOCs
 ---
-
-<br>
-<span class="folder-index-content">
-	```folder-index-content
-	```
-</span>
+`classname:folder-index-content`
+```folder-index-content
+```
