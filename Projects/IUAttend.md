@@ -1,6 +1,6 @@
 ---
 created: 2024-04-17T16:50
-updated: 2024-04-19T02:08
+updated: 2024-04-19T02:13
 ---
 ## IU Attendance Tracking System
 ### Technologies Used
