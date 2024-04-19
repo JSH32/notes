@@ -13,7 +13,6 @@ where file.name != this.file.name and file.folder != "Obsidian" and contains(fil
 sort file.mtime descending
 limit 15
 ```
-
 **OBSIDIAN ACTIVITY**
 ```dataviewjs
 
