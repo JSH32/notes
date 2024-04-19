@@ -2,14 +2,14 @@
 cssclasses:
   - myhome
 banner_x: 0.542
-banner_y: 0.626
+banner_y: 0.708
 banner: "[[sky.gif]]"
 banner_icon: 📅
 ---
 ## Files
 ```dataview
 table file.ctime as Created, file.mtime as "Last modified"
-where file.name != this.file.name and contains(file.path, this.file.folder)
+where file.name != this.file.name and file.folder != "Obsidian" and contains(file.path, this.file.folder)
 sort file.mtime descending
 limit 15
 ```

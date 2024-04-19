@@ -4,7 +4,7 @@
   "nativeMenus": false,
   "interfaceFontFamily": "SN Pro",
   "textFontFamily": "SN Pro",
-  "theme": "system",
+  "theme": "obsidian",
   "showViewHeader": true,
   "enabledCssSnippets": [
     "filetree_banner_index",
