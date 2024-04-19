@@ -1,7 +1,8 @@
 ---
 tags: MOCs
 created: 2024-04-18T18:12
-updated: 2024-04-18T18:12
+updated: 2024-04-19T02:21
+banner_icon: 💻
 ---
 `classname:folder-index-replacement`
 ## Folder Index
