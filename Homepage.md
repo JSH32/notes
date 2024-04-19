@@ -7,17 +7,26 @@ target: 10000
 banner: "[[flowers.gif]]"
 banner_icon: 📅
 ---
-# gh
-asd
-
-
-
-
-```jsx:
-<ShowI></ShowI>
+```ad-tip
+title: Files
+```dataview
+table file.ctime as Created, file.mtime as "Last modified"
+where file.name != this.file.name and contains(file.path, this.file.folder)
+sort file.mtime descending
+limit 15
 ```
 
 
+```
+
+
+## Files
+```dataview
+table file.ctime as Created, file.mtime as "Last modified"
+where file.name != this.file.name and contains(file.path, this.file.folder)
+sort file.mtime descending
+limit 15
+```
 
 **OBSIDIAN ACTIVITY**
 ```dataviewjs
