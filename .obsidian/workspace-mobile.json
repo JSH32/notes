@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd6ffe3ab8eaa3b",
+        "id": "3439dbf23363371a",
         "type": "tabs",
         "children": [
           {
-            "id": "abf76cb2575784fc",
+            "id": "530fd086ff56ad60",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -121,7 +121,7 @@
         }
       },
       {
-        "id": "4704eb53d9bb41a7",
+        "id": "3507589caaa705a0",
         "type": "leaf",
         "state": {
           "type": "tasks_timeline_view",
@@ -140,20 +140,21 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "abf76cb2575784fc",
+  "active": "530fd086ff56ad60",
   "lastOpenFiles": [
-    "/Projects/RayVM/RayVM.md",
     "/Projects/RayVM/RayVM Implementation Reference.md",
-    "/Projects/Projects.md",
     "/Projects/IUAttend.md",
+    "/Homepage.md",
+    "Classes/Calculus 1/Notes/August 23 2023.md",
+    "Homepage.md",
+    "/Projects/RayVM/RayVM.md",
+    "/Projects/Projects.md",
     "/Obsidian/Obsidian.md",
     "/Obsidian/Banners/Banners.md",
-    "/Homepage.md",
     "/Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
     "/Classes/Conspiracy Theories/Notes/August 21 2023.md",
     "/Classes/Conspiracy Theories/Conspiracy Theories.md",
@@ -171,8 +172,6 @@
     "/Classes/Astronomy A221/Notes/August 30 2023.md",
     "/Classes/Astronomy A221/Notes/August 23 2023.md",
     "/Classes/Astronomy A221/Notes/August 21 2023.md",
-    "/Classes/Astronomy A221/Astronomy A221.md",
-    "Projects/RayVM/RayVM Implementation Reference.md",
     "Obsidian/Banners/windowsill.gif",
     "Obsidian/Banners/sky.gif",
     "Obsidian/Banners/green3.gif",
