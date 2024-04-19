@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8373ef587a0ddc5c",
+        "id": "3fd6ffe3ab8eaa3b",
         "type": "tabs",
         "children": [
           {
-            "id": "52698ba59660ef20",
+            "id": "abf76cb2575784fc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Homepage.md",
                 "mode": "preview",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ]
@@ -119,7 +121,7 @@
         }
       },
       {
-        "id": "33740a214ae612d0",
+        "id": "4704eb53d9bb41a7",
         "type": "leaf",
         "state": {
           "type": "tasks_timeline_view",
@@ -131,6 +133,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian42-brat:BRAT": false,
       "omnisearch:Omnisearch": false,
@@ -142,10 +145,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "52698ba59660ef20",
+  "active": "abf76cb2575784fc",
   "lastOpenFiles": [
+    "/Projects/RayVM/RayVM.md",
+    "/Projects/RayVM/RayVM Implementation Reference.md",
+    "/Projects/Projects.md",
+    "/Projects/IUAttend.md",
+    "/Obsidian/Obsidian.md",
+    "/Obsidian/Banners/Banners.md",
+    "/Homepage.md",
+    "/Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
+    "/Classes/Conspiracy Theories/Notes/August 21 2023.md",
+    "/Classes/Conspiracy Theories/Conspiracy Theories.md",
+    "/Classes/Classes.md",
+    "/Classes/Calculus 1/Notes/September 01 2023.md",
+    "/Classes/Calculus 1/Notes/Notes.md",
+    "/Classes/Calculus 1/Notes/August 31 2023.md",
+    "/Classes/Calculus 1/Notes/August 30 2023.md",
+    "/Classes/Calculus 1/Notes/August 24 2023.md",
+    "/Classes/Calculus 1/Notes/August 23 2023.md",
+    "/Classes/Calculus 1/Notes/August 21 2023.md",
+    "/Classes/Calculus 1/Calculus 1.md",
+    "/Classes/Astronomy A221/Notes/September 6 2023.md",
+    "/Classes/Astronomy A221/Notes/Notes.md",
+    "/Classes/Astronomy A221/Notes/August 30 2023.md",
+    "/Classes/Astronomy A221/Notes/August 23 2023.md",
+    "/Classes/Astronomy A221/Notes/August 21 2023.md",
+    "/Classes/Astronomy A221/Astronomy A221.md",
     "Projects/RayVM/RayVM Implementation Reference.md",
-    "Obsidian/Obsidian.md",
     "Obsidian/Banners/windowsill.gif",
     "Obsidian/Banners/sky.gif",
     "Obsidian/Banners/green3.gif",
@@ -153,39 +180,15 @@
     "Obsidian/Banners/green1.gif",
     "Obsidian/Banners/flowers.gif",
     "Obsidian/Banners/blue1.gif",
-    "Obsidian/Banners/Banners.md",
-    "Homepage.md",
-    "Classes/Classes.md",
-    "/Projects/RayVM/RayVM Implementation Reference.md",
-    "/Obsidian/Obsidian.md",
     "/Obsidian/Banners/windowsill.gif",
     "/Obsidian/Banners/sky.gif",
     "/Obsidian/Banners/green3.gif",
-    "/Obsidian/Banners/Banners.md",
-    "/Homepage.md",
-    "/Classes/Classes.md",
     "Obsidian/Banners",
     "Obsidian",
     "/Obsidian/Banners",
     "/Obsidian",
-    "Projects/IUAttend.md",
-    "Projects/Projects.md",
-    "Projects/RayVM/RayVM.md",
     "Classes/Astronomy A221/Notes.lnk",
-    "/Projects/RayVM/RayVM.md",
-    "/Projects/Projects.md",
-    "/Classes/Calculus 1/Notes/Notes.md",
-    "/Classes/Calculus 1/Calculus 1.md",
     "/Classes/Astronomy A221/Notes.lnk",
-    "/Classes/Astronomy A221/Notes/Notes.md",
-    "/Classes/Astronomy A221/Astronomy A221.md",
-    "Classes/Conspiracy Theories/Notes/Notes.md",
-    "Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md",
-    "Classes/Conspiracy Theories/Notes/Conspiracy Theories.md",
-    "Classes/Conspiracy Theories/Notes/August 21 2023.md",
-    "Classes/Conspiracy Theories/Conspiracy Theories.md",
-    "Classes/Calculus 1/Notes/September 01 2023.md",
-    "Classes/Calculus 1/Notes/Notes.md",
     "Projects/RayVM",
     "Projects",
     "Classes/Conspiracy Theories/Notes",
