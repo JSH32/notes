@@ -59,7 +59,6 @@ graph TD;
 
 
 
-
 At each step, the algorithm evaluates the segment of the list it is working with. If the segment size is below the threshold, it will use either TimSort or QuickSort, depending on which is performing better at runtime. For larger segments, it divides the task into two smaller tasks, processing them recursively in parallel.
 
 ## Conclusion
