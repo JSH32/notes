@@ -1,7 +1,8 @@
 ---
 created: 2024-04-17T16:50
-updated: 2024-04-19T02:20
+updated: 2024-04-19T03:08
 banner: "[[iuluddy.jpg]]"
+banner_icon: 📋
 ---
 ## IU Attendance Tracking System
 ### Technologies Used

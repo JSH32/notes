@@ -6,13 +6,13 @@
   "autoRenameIndexFile": true,
   "includeFileContent": false,
   "hideIndexFiles": false,
-  "indexFileInitText": "---\ntags: MOCs\n---\n%% Waypoint %%",
+  "indexFileInitText": "---\ntags: MOCs\n---\n```folder-index-content\n```",
   "autoPreviewMode": true,
   "sortIndexFilesAlphabetically": true,
   "sortHeadersAlphabetically": false,
   "recursiveIndexFiles": true,
   "renderFolderBold": true,
-  "renderFolderItalic": true,
+  "renderFolderItalic": false,
   "useBulletPoints": false,
   "excludeFolders": [
     ""
