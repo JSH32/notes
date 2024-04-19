@@ -17,5 +17,6 @@
   "homepage",
   "obsidian-react-components",
   "obsidian-admonition",
-  "obsidian-activity-history"
+  "obsidian-activity-history",
+  "dataview"
 ]

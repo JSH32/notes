@@ -9,8 +9,6 @@ banner: "[[flowers.gif]]"
 banner_icon: 🏖️
 ---
 
-
-# Rainbell
 - **AGENDA**
 	- [Daily](obsidian://advanced-uri?vault=Rainbell%20English&daily=true)
 	- [Weekly](obsidian://advanced-uri?vault=Rainbell%20English&commandid=calendar%253Aopen-weekly-note)
