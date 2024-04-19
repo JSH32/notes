@@ -2,8 +2,8 @@
   "accentColor": "",
   "cssTheme": "Blue Topaz",
   "nativeMenus": false,
-  "interfaceFontFamily": "",
-  "textFontFamily": "",
+  "interfaceFontFamily": "SN Pro",
+  "textFontFamily": "SN Pro",
   "theme": "system",
   "showViewHeader": true,
   "enabledCssSnippets": [
@@ -11,5 +11,6 @@
     "filetree_banner_index",
     "folder_index_banner_title_hide",
     "unordered_list_styling2"
-  ]
+  ],
+  "monospaceFontFamily": "FiraCode Nerd Font Mono"
 }

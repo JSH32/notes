@@ -23,3 +23,10 @@ body.is-mobile .folder-index-content {
 body:not(.is-mobile) .folder-index-replacement {
   display: none;
 }
+
+@media print {
+  /* Dont show banner when exporting as pdf. */
+  .obsidian-banner {
+    display: none;
+  }
+}
