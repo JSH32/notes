@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "lukasbach/obsidian-code-files",
     "noatpad/obsidian-banners"
   ],
   "pluginSubListFrozenVersion": [

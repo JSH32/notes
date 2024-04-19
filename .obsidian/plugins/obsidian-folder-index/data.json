@@ -15,8 +15,7 @@
   "renderFolderItalic": false,
   "useBulletPoints": false,
   "excludeFolders": [
-    "*/Assets",
-    "*/Obsidian"
+    ""
   ],
   "recursionLimit": -1,
   "headlineLimit": 6
