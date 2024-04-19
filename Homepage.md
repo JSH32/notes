@@ -6,7 +6,7 @@ banner_y: 0.708
 banner: "[[sky.gif]]"
 banner_icon: 📅
 created: 2024-04-19T00:24
-updated: 2024-04-19T02:16
+updated: 2024-04-19T11:18
 ---
 ## Files
 ```dataview
@@ -20,7 +20,7 @@ limit 15
 ```dataviewjs
 let ftMd = dv.pages("").file.sort(t => t.frontmatter.created)[0]
 let total = parseInt([new Date() - new Date(ftMd.frontmatter.created)] / (60*60*24*1000))
-let totalDays = "You have been using *Obsidian* for "+total+" days,"
+let totalDays = "You have been using *Obsidian* for "+total || 0+" days,"
 let nofold = '!"misc/templates"'
 let allFile = dv.pages(nofold).file
 let totalMd = " with "+
@@ -30,5 +30,9 @@ let totalTask = allFile.tasks.length+" tasks created. "
 dv.paragraph(
 	totalDays+totalMd+""+totalTag+""+totalTask
 )
+```
 
+```dataviewjs
+let ftMd = dv.pages("").file.sort(t => t.frontmatter.created)[0]
+dv.paragraph(ftMd)
 ```
