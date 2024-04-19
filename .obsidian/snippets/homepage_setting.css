@@ -35,9 +35,14 @@ source: https://forum.obsidian.md/t/hide-show-properties-and-add-property-button
 
 /* banner icon as date*/
 
-.myhome .obsidian-banner-icon .icon-box img
+.myhome .banner-emoji
 {
 content: url("https://api.wolai.com/v1/icon?type=1&locale=en&pro=0&color=grey");
+font-size: xxx-large;
+}
+
+.myhome .banner-header-title {
+  margin-left: 10px;
 }
 
 /* end */

@@ -5,7 +5,7 @@ banner_x: 0.62858
 banner_y: 0.38648
 target: 10000
 banner: "[[flowers.gif]]"
-banner_icon: 📆
+banner_icon: 📅
 ---
 
 - **LIFE**
