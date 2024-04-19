@@ -6,21 +6,20 @@ banner_y: 0.708
 banner: "[[sky.gif]]"
 banner_icon: 📅
 created: 2024-04-19T00:24
-updated: 2024-04-19T02:01
+updated: 2024-04-19T02:11
 ---
-`= this.file.created`
-
 ## Files
 ```dataview
-table file.ctime as Created, file.updated as "Last modified"
+table created as Created, updated as "Last modified"
 where file.name != this.file.name and file.folder != "Obsidian" and contains(file.path, this.file.folder)
-sort file.mtime descending
+sort updated descending
 limit 15
 ```
+
 **OBSIDIAN ACTIVITY**
 ```dataviewjs
 
-let ftMd = dv.pages("").file.sort(t => t.cday)[0]
+let ftMd = dv.pages("").file.sort(t => t.created)[0]
 let total = parseInt([new Date() - ftMd.ctime] / (60*60*24*1000))
 let totalDays = "You have been using *Obsidian* for "+total+" days,"
 let nofold = '!"misc/templates"'
@@ -35,5 +34,9 @@ dv.paragraph(
 
 ```
 
-
-
+```
+table file.ctime as Created, file.updated as "Last modified"
+where file.name != this.file.name and file.folder != "Obsidian" and contains(file.path, this.file.folder)
+sort file.mtime descending
+limit 15
+```
