@@ -1,3 +1,7 @@
+---
+created: 2024-04-17T14:19
+updated: 2024-04-17T16:59
+---
 
 - [x] Wuhan and COVID 19 Article 📅 2023-09-08 ✅ 2024-04-17
 	- This assignment asks you to investigate a particular conspiracy, as a journalist would. You will be assigned the particular theory to look at. Different students will receive different assignments. Your final product will be a 1400-word article on the theory, something that will tell readers the basics of this theory, whether it is something that can be believed or not, and other things that a general reader would want to know about the theory. Expose the theory as false, or show it to be something worth considering, or maybe something in between (depending on what you find).

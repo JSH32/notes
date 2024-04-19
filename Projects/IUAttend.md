@@ -1,3 +1,7 @@
+---
+created: 2024-04-17T16:50
+updated: 2024-04-17T22:23
+---
 ## IU Attendance Tracking System
 ### Technologies Used
 - **Database** - MySQL
