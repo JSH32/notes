@@ -1,8 +1,9 @@
 ---
 created: 2024-04-17T16:50
-updated: 2024-04-19T11:18
+updated: 2024-04-19T11:26
 banner: "[[iuluddy.jpg]]"
 banner_icon: 📋
+banner_x: 0.662
 ---
 ## IU Attendance Tracking System
 ### Technologies Used
@@ -12,7 +13,6 @@ banner_icon: 📋
 - **Client**
 	- NextJS
 		- https://trpc.io/docs/client/nextjs - Works with tRPC natively
-
 ### Form Types
 - Admin
 	- Create Event - All forms are owned by events

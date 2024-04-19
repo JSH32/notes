@@ -10,5 +10,6 @@
   "spellcheck": false,
   "showInlineTitle": false,
   "propertiesInDocument": "visible",
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "promptDelete": false
 }
