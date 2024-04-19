@@ -6,7 +6,7 @@
   "autoRenameIndexFile": true,
   "includeFileContent": false,
   "hideIndexFiles": false,
-  "indexFileInitText": "---\ntags: MOCs\n---\n`classname:folder-index-replacement`\n\n* %% Waypoint %%\n`classname:folder-index-content`\n```folder-index-content\n```",
+  "indexFileInitText": "---\ntags: MOCs\n---\n%% Waypoint %%",
   "autoPreviewMode": true,
   "sortIndexFilesAlphabetically": true,
   "sortHeadersAlphabetically": false,
@@ -14,7 +14,9 @@
   "renderFolderBold": true,
   "renderFolderItalic": true,
   "useBulletPoints": false,
-  "excludeFolders": [],
+  "excludeFolders": [
+    ""
+  ],
   "recursionLimit": -1,
   "headlineLimit": 6
 }

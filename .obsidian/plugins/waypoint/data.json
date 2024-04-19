@@ -10,8 +10,7 @@
   "showEnclosingNote": false,
   "folderNoteType": "INSIDE_FOLDER",
   "ignorePaths": [
-    "_attachments",
-    "Obsidian"
+    "_attachments"
   ],
   "useSpaces": false,
   "numSpaces": 2
