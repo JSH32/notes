@@ -9,5 +9,6 @@
   "alwaysUpdateLinks": true,
   "spellcheck": false,
   "showInlineTitle": false,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "defaultViewMode": "preview"
 }
