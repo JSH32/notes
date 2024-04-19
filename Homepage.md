@@ -6,11 +6,13 @@ banner_y: 0.708
 banner: "[[sky.gif]]"
 banner_icon: 📅
 created: 2024-04-19T00:24
-updated: 2024-04-19T01:36
+updated: 2024-04-19T02:01
 ---
+`= this.file.created`
+
 ## Files
 ```dataview
-table file.ctime as Created, file.mtime as "Last modified"
+table file.ctime as Created, file.updated as "Last modified"
 where file.name != this.file.name and file.folder != "Obsidian" and contains(file.path, this.file.folder)
 sort file.mtime descending
 limit 15
