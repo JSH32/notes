@@ -8,9 +8,9 @@
   "ignoreCreatedFolder": [],
   "enableExperimentalHash": false,
   "fileHashMap": {
-    "Projects/RayVM/RayVM Implementation Reference.md": "2c1044937c17ae991ac216793aec7eac406b8c75a8ff669a378690de8c778a0d",
-    "Projects/IUAttend.md": "2b1b6ca97405b59434e6b5988f40e1ddfc3b0f61bd5f0cd09e4daf67181333b5",
-    "Homepage.md": "3d20c65234665a07c314e4b2385aa91bfa68aef0a42b8ee7f44192ad6b6ea5b1",
+    "Projects/RayVM/RayVM Implementation Reference.md": "38e62b3cbd63c381b3838fcd94e9920073ebd2fc4b76dff364e791b1a1a4cf07",
+    "Projects/IUAttend.md": "638ec07c2e301e136b5ae4c142bc4301e4277d66c18206bd134f1fc062b60acb",
+    "Homepage.md": "72f64dd9a3b9dbd1457d5c125722f9fc6cb94a6346f9da3413b236c62e35f07b",
     "Classes/Conspiracy Theories/Notes/Covid Wuhan Article.md": "d46ad349228c219fc1fcb05063c0c9790cff679b2c22f1df6311bc098d94c279",
     "Classes/Conspiracy Theories/Notes/August 21 2023.md": "379bbfbfa54252927eed510e043c4dc1ffa6d323b5f074ba9519382028535d0b",
     "Classes/Calculus 1/Notes/September 01 2023.md": "25293c87185413d4604a80a4ee72107e2a723b5b1c9f0edc024232a29d63dd7b",
@@ -24,6 +24,14 @@
     "Classes/Astronomy A221/Notes/August 23 2023.md": "73984ddbfedd8ad32258085901a37c819ea7fe398cc2053b1b64579bc26d74d0",
     "Classes/Astronomy A221/Notes/August 21 2023.md": "f09f4f6f3c03cb29207eb54279fee0891e871bfdbe955b6a8be60ef0b4edc8ef",
     "Classes/Classes.md": "2f85f6adb9e77ba2dc2e5ddbc13a735ac0d3f05278a4544ad38d421926e146af",
-    "Projects/Projects.md": "cd0ceb41556d45548dca302c39ae9fef05c2d8443e3e8d8dd6c719ab0a36817e"
+    "Projects/Projects.md": "cf175921e24caba3b9b90eff15af7a2f4b17ca45bed5624f216c5b088041202f",
+    "Classes/Astronomy A221/Astronomy A221.md": "f76c9d25bd9d0b7743ec84cd0aab16bb5af671576bb8e4b3b4559b9e53616e7a",
+    "Classes/Astronomy A221/Notes/Notes.md": "f76c9d25bd9d0b7743ec84cd0aab16bb5af671576bb8e4b3b4559b9e53616e7a",
+    "Classes/Calculus 1/Calculus 1.md": "af1268e5eac777d93e13ca0966c60e50d3e35af6bc65d6d8fd90b995a47356e6",
+    "Classes/Calculus 1/Notes/Notes.md": "af1268e5eac777d93e13ca0966c60e50d3e35af6bc65d6d8fd90b995a47356e6",
+    "Classes/Conspiracy Theories/Conspiracy Theories.md": "af1268e5eac777d93e13ca0966c60e50d3e35af6bc65d6d8fd90b995a47356e6",
+    "Classes/Conspiracy Theories/Notes/Notes.md": "a512ab6ebb0af812a315697c843a7c813261ba1df2336aebefef982bfc97d4e9",
+    "Projects/RayVM/RayVM.md": "ae97d381dba9f17d0ca36590edf7eb125d8097b75570c561fa3c1b26109d9638",
+    "Classes/Introduction to Software Systems/Adaptive Hybrid Sort/Adaptive Hybrid Sort.md": "546abcaf528004128e1758640c0e64d6dceb238a6347bd3526205ff96f1056d0"
   }
 }
