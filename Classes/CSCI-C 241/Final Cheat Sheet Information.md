@@ -1,6 +1,6 @@
 ---
 created: 2024-05-01T02:44
-updated: 2024-05-01T03:54
+updated: 2024-05-01T04:02
 ---
 For a set $S$, the cardinality of the powerset of $S$ is $2^{|S|}$, where $|S|$ is the cardinality of the set $S$. This reflects the fact that each element of the set can either be included or not included in each subset, resulting in two choices per element. Therefore, for a set with $n$ elements, the number of possible subsets (which is the size of the powerset) is $2^n$.
 
@@ -40,5 +40,14 @@ For a set $S$, the cardinality of the powerset of $S$ is $2^{|S|}$, where $|S|$ 
     **Translation:** "For all xx and yy, if xx is related to yy and yy is related to xx, then xx and yy must be the same."
 
 **Relation on Str where symmetric and not transitive**
-$g(x,y)$ = where $x$ and $y$ share a letter in common
+$g(x,y)$ = $x$ and $y$ share a letter in common
 **Relation on Str where not One-To-One**
+$g(x,y)$ = $\{{(x,y) | y=}$ first letter of x $\}$
+
+- **Reflexive Relation:** A relation is reflexive if every element is related to itself.
+    - The substring relation is reflexive because every string is a substring of itself.
+- **Antireflexive Relation:** A relation is antireflexive if no element is related to itself.
+	- A relation $R$ is antireflexive if for every element $x$, the pair $(x,x)∉R$
+- **Symmetric Relation:** A relation is symmetric if for all $x$ and $y$, if $(x,y)$ is in the relation, then $(y,x)$must also be in the relation.
+- **Antisymmetric Relation:** A relation is antisymmetric if for all $x$ and $y$, if $(x,y$) and $(y,x)$ are both in the relation, then $x$ must be equal to $y$.
+- **Transitive Relation:** A relation is transitive if for all $x$, $y$, and $z$, if $(x,y)$ and $(y,z)$ are in the relation, then $(x,z)$ must also be in the relation.
