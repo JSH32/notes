@@ -1,6 +1,6 @@
 ---
 created: 2024-05-01T02:44
-updated: 2024-05-01T04:02
+updated: 2024-05-01T04:30
 ---
 For a set $S$, the cardinality of the powerset of $S$ is $2^{|S|}$, where $|S|$ is the cardinality of the set $S$. This reflects the fact that each element of the set can either be included or not included in each subset, resulting in two choices per element. Therefore, for a set with $n$ elements, the number of possible subsets (which is the size of the powerset) is $2^n$.
 
@@ -51,3 +51,10 @@ $g(x,y)$ = $\{{(x,y) | y=}$ first letter of x $\}$
 - **Symmetric Relation:** A relation is symmetric if for all $x$ and $y$, if $(x,y)$ is in the relation, then $(y,x)$must also be in the relation.
 - **Antisymmetric Relation:** A relation is antisymmetric if for all $x$ and $y$, if $(x,y$) and $(y,x)$ are both in the relation, then $x$ must be equal to $y$.
 - **Transitive Relation:** A relation is transitive if for all $x$, $y$, and $z$, if $(x,y)$ and $(y,z)$ are in the relation, then $(x,z)$ must also be in the relation.
+
+
+The number of permutations (or ordered arrangements) of rr items taken from a set of n distinct items
+$nPr=\frac{n!}{(n−r)!}​$
+
+The number of combinations (or selections) of r items from a set of n distinct items where the order of selection does not matter.
+$nCr=\frac{n!}{r!(n-r)!}$
