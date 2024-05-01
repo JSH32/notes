@@ -1,6 +1,6 @@
 ---
 created: 2024-05-01T02:44
-updated: 2024-05-01T04:30
+updated: 2024-05-01T11:53
 ---
 For a set $S$, the cardinality of the powerset of $S$ is $2^{|S|}$, where $|S|$ is the cardinality of the set $S$. This reflects the fact that each element of the set can either be included or not included in each subset, resulting in two choices per element. Therefore, for a set with $n$ elements, the number of possible subsets (which is the size of the powerset) is $2^n$.
 
@@ -32,12 +32,11 @@ For a set $S$, the cardinality of the powerset of $S$ is $2^{|S|}$, where $|S|$ 
 
 - **First-Order Logic:**
     $∀x(P(x)→Q(x))$
-    **Translation:** "For all xx, if xx has property PP, then xx also has property QQ."
-    
+    **Translation:** "For all x, if x has property P, then x also has property Q."
     $∃x(P(x)∧¬Q(x))$
-    **Translation:** "There exists an xx such that xx has property PP but does not have property QQ."
+    **Translation:** "There exists an x such that x has property P but does not have property Q."
     $∀x∀y((R(x,y)∧R(y,x))→x=y)$
-    **Translation:** "For all xx and yy, if xx is related to yy and yy is related to xx, then xx and yy must be the same."
+    **Translation:** "For all x and y, if x is related to y and y is related to x, then x and y must be the same."
 
 **Relation on Str where symmetric and not transitive**
 $g(x,y)$ = $x$ and $y$ share a letter in common
