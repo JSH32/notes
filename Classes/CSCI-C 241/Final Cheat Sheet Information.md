@@ -1,8 +1,8 @@
 ---
 created: 2024-05-01T02:44
-updated: 2024-05-01T03:23
+updated: 2024-05-01T03:25
 ---
-The cardinality of the powerset of a set A, denoted as \( \left| \mathcal{P}(A) \right| \), is equal to \( 2^{\left| A \right|} \), where \( \left| A \right| \) represents the cardinality (or size) of set \( A \). In simpler terms, it means the number of subsets of a set \( A \), including the empty set and the set itself. So if a set \( A \) has \( n \) elements, its powerset has \( 2^n \) elements.
+For a set $S$, the cardinality of the powerset of $S$ is $2^{|S|}$, where $|S|$ is the cardinality of the set $S$. This reflects the fact that each element of the set can either be included or not included in each subset, resulting in two choices per element. Therefore, for a set with $n$ elements, the number of possible subsets (which is the size of the powerset) is $2^n$.
 
 - Causality indicators: because, since, due to
     - Implication types:
