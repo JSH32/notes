@@ -1,6 +1,6 @@
 ---
 created: 2024-05-02T07:28
-updated: 2024-05-02T07:34
+updated: 2024-05-02T07:38
 ---
 **Week 1: Course Introduction**
 
@@ -185,3 +185,69 @@ updated: 2024-05-02T07:34
     - **Sartorial Dualism:** This term reflects the coexistence and tension between Western and Japanese styles of dress in modern Japan. After the Meiji Restoration in 1868, Japan underwent rapid modernization, which included the adoption of Western dress codes by many, especially in business and formal contexts. However, the kimono remains a powerful symbol of Japanese identity and cultural continuity.
     - **Modern Adaptations and Challenges:** The kimono industry today faces challenges such as declining demand and the aging of skilled artisans. However, there has been a movement to reinterpret the kimono in modern fashion contexts, making it more accessible and versatile for casual wear or artistic expression.
     - **Fashion and Identity:** The dualistic approach to fashion in Japan illustrates broader social dynamics, such as the negotiation between tradition and modernity, individual expression versus cultural conformity, and the global interaction of fashion trends.
+
+### Popular Music and Politics:
+
+- **Competing Interpretations of "When Will You Come Back Again?" (1938-Present):**
+    
+    - **Historical Context:** Originally written in 1937 during the Second Sino-Japanese War, this song expressed longing and hope amidst separation and conflict. It quickly became a popular anthem among Chinese people.
+    - **Evolving Meanings:** Over the decades, the interpretation of this song has shifted based on China's political climate. During the Cultural Revolution, it was reinterpreted to fit socialist themes. In modern times, it has been used in various contexts, often evoking nostalgia and the enduring human spirit amidst adversity.
+    - **Symbolic Resonance:** This song's ability to adapt to different political and social contexts demonstrates the powerful role of music in national identity and collective memory.
+- **Cui Jian’s Rock Music in Post-Mao China:**
+    
+    - **The "Father of Chinese Rock":** Cui Jian emerged in the 1980s, a time of significant cultural and economic reform in China. His music, blending Western rock influences with Chinese elements, appealed to the youth who were eager for change.
+    - **Political Undertones:** His most famous song, "Nothing to My Name," became an anthem for the student protesters during the 1989 Tiananmen Square protests. The song's lyrics speak to a sense of disillusionment and a longing for freedom, resonating deeply with the sentiments of the youth at that time.
+    - **Impact on Chinese Society:** Cui Jian’s music challenged the status quo and opened up discussions about individuality and expression in a society that was traditionally collectivist. His career faced various bans and restrictions, reflecting the tense relationship between art and politics in China.
+- **Kasagi Shizuko’s Boogie-Woogie and Misora Hibari’s Enka in Post-War Japan:**
+    
+    - **Kasagi Shizuko:** Known as the "Queen of Boogie," Kasagi brought boogie-woogie to Japan during the post-war era. Her music represented a new wave of Western influence and a break from the past, symbolizing freedom and modernity at a time when Japan was reconstructing its national identity.
+    - **Misora Hibari and Enka:** Contrasting with Kasagi’s Western-influenced tunes, Misora Hibari became synonymous with enka, a genre deeply tied to Japanese sentimentality and melancholia. Her songs often dealt with themes of love, loss, and perseverance, reflecting the emotional landscape of Japan’s post-war period.
+    - **Cultural Significance:** While Kasagi introduced a vibrant, upbeat style that looked outward to Western influences, Misora embodied a return to traditional Japanese themes. Both artists played crucial roles in shaping Japan’s musical culture, offering paths for emotional recovery and cultural introspection after the war.
+
+### TV's Dual Role in Post-Socialist China:
+
+- **Propaganda Tool and Entertainment Medium:**
+    - **Government Instrument:** In post-socialist China, TV has continued to serve as a crucial instrument for the government to disseminate ideology and maintain social control. State-run channels frequently broadcast programs that promote socialist values, national unity, and the achievements of the Communist Party.
+    - **Source of Entertainment:** Alongside its role in propaganda, television has become a primary source of entertainment, offering an array of dramas, comedies, and reality shows. This duality is critical in maintaining viewer engagement, as entertainment content attracts wide audiences, providing a platform for embedded governmental messages.
+    - **Commercial Success and Soft Power:** The rise of commercially successful TV dramas that appeal to mass audiences both domestically and internationally has allowed China to extend its cultural influence, demonstrating soft power through popular media.
+
+### Development of TV Dramas in East Asia:
+
+- **Growth and Innovation:**
+    
+    - **Diverse Genres and High Production Values:** East Asian TV dramas, particularly from South Korea, Japan, and China, have seen significant evolution in terms of production quality and diversity of genres. Historical dramas, romantic comedies, and thriller genres have been produced with high production standards, appealing to a broad range of viewers.
+    - **International Appeal:** The global popularity of K-dramas, such as "My Love from the Star" and "Crash Landing on You," showcases the international appeal of East Asian TV dramas. These dramas often feature compelling storytelling, unique cultural elements, and universal themes of love, ambition, and family.
+    - **Technological Integration and Distribution:** The integration of technology in production and distribution has played a crucial role. Streaming services like Netflix have made East Asian dramas more accessible worldwide, enhancing their global reach and influence. Additionally, advancements in filming technology and special effects have allowed for more visually captivating series.
+- **Cultural and Social Impact:**
+    
+    - **Cultural Export and Soft Power:** Particularly for South Korea and Japan, TV dramas have become significant cultural exports. They are instrumental in promoting language, fashion, and lifestyle associated with these countries, enhancing their soft power globally.
+    - **Reflection of Societal Issues:** TV dramas in East Asia frequently address and reflect upon contemporary social issues such as family dynamics, gender roles, and economic pressures. For example, Japanese dramas often explore societal pressures related to work and conformity, while Korean dramas might delve into issues of hierarchical social structures and personal aspirations.
+- **Regulatory Environment and Censorship:**
+    
+    - **Government Oversight:** In countries like China, the content of TV dramas is subject to strict government censorship and must align with political and social norms as dictated by the ruling party. Themes that might contradict or challenge the official narrative are often banned or edited.
+    - **Self-Censorship and Creative Expression:** In response to these restrictions, writers and producers often engage in self-censorship, creatively working within the bounds to tell engaging stories that meet regulatory approval while still resonating with audiences.
+
+### Characteristics of Modern Sports:
+
+- **Commercialization and Globalization:** Modern sports are characterized by significant commercialization, where marketing, branding, and media rights play crucial roles in shaping the industry. Globalization has enabled sports to transcend national boundaries, making events like the FIFA World Cup and the Olympic Games global phenomena that attract diverse international audiences.
+- **Professionalism and Technologization:** There has been a marked shift towards professionalism in sports, with athletes often pursuing sports as full-time careers, supported by advancements in sports science and technology. These include enhanced training methods, nutritional planning, and the use of data analytics to improve performance.
+- **Inclusivity and Accessibility:** Efforts to make sports more inclusive have increased, addressing gender disparities and encouraging participation from various demographic groups. Initiatives to make sports accessible to people with disabilities and underrepresented communities are part of broader social inclusion efforts.
+
+### Sporting Nationalism (Tiyu and Modern China):
+
+- **Tiyu (体育) – Physical Education and Sports:** In China, sports are not just physical activities but are integrated into national development strategies. The concept of "tiyu" involves using sports as a medium to enhance national strength and improve public health.
+- **National Pride and International Success:** Sporting achievements are often seen as a reflection of national strength. Success in international sports, such as China's impressive performance in the Olympic Games, boosts national pride and international stature.
+- **Government Involvement:** The Chinese government actively promotes sports, both to improve health at the national level and to cultivate international sports champions. Programs targeting sports like table tennis and badminton are heavily supported, reflecting a strategic approach to excelling in sports where China historically performs well.
+
+### Constructing Modern Indigenous Sports: Sumo and Wushu:
+
+- **Sumo in Japan:**
+    
+    - **Cultural Significance:** Sumo, a sport with ancient roots, is considered a quintessential Japanese cultural symbol. It involves ritual elements that reflect Shinto practices, such as purifying the ring with salt.
+    - **Modern Adaptations:** While deeply traditional, sumo has adapted to modern times by incorporating contemporary marketing techniques and international broadcasts, thus reaching a global audience.
+    - **Challenges and Innovations:** The sport faces challenges such as declining domestic interest and controversies over rigidity in traditions. Efforts to modernize the sport while retaining its cultural essence are ongoing.
+- **Wushu in China:**
+    
+    - **Traditional Roots and Modern Sport:** Wushu, or Chinese martial arts, originated from ancient combat techniques and philosophies. It has been modernized to become a competitive sport that showcases both martial skill and artistic expression.
+    - **Promotion as a National Sport:** Wushu is promoted by the Chinese government as a symbol of Chinese culture and national identity. It is featured prominently in national celebrations and international sports festivals.
+    - **Global Spread and Cultural Diplomacy:** China uses wushu as a tool of cultural diplomacy, promoting it globally through wushu schools and international competitions. This not only spreads Chinese culture but also positions China as a leader in the global martial arts community.
