@@ -1,11 +1,11 @@
 ---
 created: 2024-09-29T18:56
-updated: 2024-09-29T19:16
+updated: 2024-09-29T19:19
 ---
 ## Introduction
 Here we will explain how to properly structure your Python projects for scalability, clarity, and ease of use. Managing dependencies with Poetry is just one piece of the puzzle. We will also explore how to organize your code into modules, the role of `__init__.py`, and how you can use functions across different Python files. By the end of this chapter, you will not only know how to handle dependencies with Poetry but also how to structure the internal logic of your project.
 ## What is a Dependency?
-Before we proceed, let's clarify what a **dependency** is. A **dependency** is an external package that your project needs to function. For instance, if your project requires working with APIs, you may include the `requests` library as a dependency. As projects grow, managing dependencies becomes crucial, and this is where tools like **Poetry** come into play.
+Before we proceed, let's clarify what a **dependency** is. A **dependency** is an external package that your project needs to function. For instance, if your project requires working with APIs, you may include the `requests` library as a dependency. As projects grow, managing dependencies becomes more important for your own sanity, and this is where tools like **Poetry** are useful.
 
 ## Why Use Virtual Environments?
 A **virtual environment** isolates your project’s dependencies from the system’s global Python installation. This is useful when you have multiple projects that require different versions of the same library. They are stored using managers like Conda or in folders using python's own `virtualenv` tool.
@@ -150,7 +150,8 @@ This makes it easier to run key parts of your project and ensures they’re exec
 Now it’s time to try it out yourself
 
 1. **Create a New Project**: Use `poetry new calculator` to start.
-2. **Add a Function**: Create two files, `calculator.py`, in your `my_project` directory. Add a function in each file.
-3. **Use `__init__.py`**: Modify `__init__.py` to allow importing the functions from both files.
-4. **Create a Task**: Add a task in `pyproject.toml` to run the main script.
-5. **Test Your Setup**: Run your task using `poetry run <task_name>`.
+2. **Add a Function**: Create two files, `calculator.py` and `__init__.py`, in your `calculator` directory. Add a function in each file.
+3. **CODE**: Write a calculator which accepts two arguments in the terminal and returns the added result, so `poetry run add 5 5` would return 10.
+4. **Use modules**: Your `calculator.py` function should have the logic of your program executing and your `__init__.py` should have your entrypoint, which should parse your program arguments using [argparse](https://docs.python.org/3/library/argparse.html)
+5. **Create a Task**: Add a task in `pyproject.toml` to run the main script.
+6. **Test Your Setup**: Run your task using `poetry run add`
